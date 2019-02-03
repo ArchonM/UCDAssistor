@@ -1,0 +1,4 @@
+<!--pages/todos/todos.wxml-->
+<text>当前获取的data：</text>
+<text>{{pageData}}</text>
+<button bindtap="getData" hover-class="none">点击获取服务器上data.php信息</button>
